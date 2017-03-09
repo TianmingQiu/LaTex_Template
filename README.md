@@ -1,6 +1,6 @@
 Scientific publication in laTeX
 ===============================
-
+%test: local changes and branch
 What ?
 ------
 look at the damn title. This repo contains the latex for a scientific publication.
