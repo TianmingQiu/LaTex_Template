@@ -1,6 +1,8 @@
 Scientific publication in laTeX
 ===============================
-
+%%
+here i just make some changes to test the github
+%%
 What ?
 ------
 look at the damn title. This repo contains the latex for a scientific publication.
