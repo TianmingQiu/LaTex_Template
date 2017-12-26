@@ -53,3 +53,8 @@ $ sudo modprobe -a 8821ce
 ## Upgrade Ubuntu System Version
 - From 14.04 LTS to 16.04 LTS: [CSDN Guide](http://blog.csdn.net/chszs/article/details/51236572)
 - The above link for the last step, maybe just type:```$ sudo update-manager``` without ```-d```.
+
+## [Ubuntu VPN](https://www.cnblogs.com/LinkT/p/6087634.html)
+```
+$ sudo apt-get install network-manager-openconnect-gnome
+```
