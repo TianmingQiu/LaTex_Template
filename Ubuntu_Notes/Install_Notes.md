@@ -6,12 +6,12 @@
 4. 所需的ultraISO和镜像均在移动硬盘里
 
 ## Ubuntu重装笔记(双系统卸载ubuntu)
-1.更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win
-具体更改方法如下：通过管理员身份，运行cmd。访问mbrfix(可以直接把可执行文件放在user根目录下)
-执行：MbrFix /drive 0 fixmbr /win7 /yes
-然后重启试试，看看是不是跳过了ubuntu直接引导win7
-2.使用分区工具，擦除原有ubuntu，不需要分配盘符，显示空闲即可，可以调整原win7的D盘，来给Ubuntu扩容
-3.回到安装步骤
+1.更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win  
+具体更改方法如下：通过管理员身份，运行cmd。 访问mbrfix(可以直接把可执行文件放在user根目录下)  
+执行：MbrFix /drive 0 fixmbr /win7 /yes  
+然后重启试试，看看是不是跳过了ubuntu直接引导win7  
+2.使用分区工具，擦除原有ubuntu，不需要分配盘符，显示空闲即可，可以调整原win7的D盘，来给Ubuntu扩容  
+3.回到安装步骤  
 
 ## Sougou Pinyin Input Tips
 Ubuntu搜狗输入法安装方法：
