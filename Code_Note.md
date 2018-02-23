@@ -4,4 +4,4 @@
 - vector添加新元素：`.push_back(new element)`，并且，初始化的时候无法直接赋很多
 
 ## Python
-- Python的for循环：` for j in range(i + 1, len(nums)):`。range的起始点可以不是0.
+- Python的for循环：` for j in range(i + 1, len(nums)):`. range的起始点可以不是0.
