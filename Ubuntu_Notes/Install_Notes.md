@@ -59,5 +59,4 @@ $ sudo modprobe -a 8821ce
 $ sudo apt-get install network-manager-openconnect-gnome
 ```
 
-## 在Annaconda Python 2.7 基础上继续添加 Python 3.6的方法：  
-[教程](https://conda.io/docs/user-guide/tasks/manage-python.html)
+## 在Annaconda Python 2.7 基础上继续添加 Python 3.6的[方法](https://conda.io/docs/user-guide/tasks/manage-python.html)
