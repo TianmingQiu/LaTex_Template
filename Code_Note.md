@@ -5,3 +5,12 @@
 
 ## Python
 - Python的for循环：` for j in range(i + 1, len(nums)):`. range的起始点可以不是0.
+- 返回2D list的维数：
+```
+>>> array = [[1,2],[3,4],[5,6]]
+>>> len(array)
+3
+>>> len(array[0])
+2
+```
+- 在类中调用其他的成员函数，得加`self.`
