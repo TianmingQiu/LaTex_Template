@@ -14,3 +14,4 @@
 2
 ```
 - 在类中调用其他的成员函数，得加`self.`
+- 在写递归调用函数时，每一步的输出也要相同，比如在写那个BinarySearch的时候：BoolResult = BinarySearch（t， a），最后在总的return BoolResult
