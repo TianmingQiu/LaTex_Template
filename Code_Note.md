@@ -15,3 +15,5 @@
 ```
 - 在类中调用其他的成员函数，得加`self.`
 - 在写递归调用函数时，每一步的输出也要相同，比如在写那个BinarySearch的时候：BoolResult = BinarySearch（t， a），最后在总的return BoolResult
+- List不支持多维切片，只能用单维切片
+- [Python类中object的意思](https://my.oschina.net/zhengtong0898/blog/636468)
