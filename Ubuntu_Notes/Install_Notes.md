@@ -64,3 +64,6 @@ $ sudo apt-get install network-manager-openconnect-gnome
 ## TensorFlow 
 - 安装[pip](https://pip.pypa.io/en/latest/installing/#id7)
 - 安装[TensorFlow](https://zhuanlan.zhihu.com/p/24055668)： `pip install --upgrade --ignore-installed tensorflow` (CPU版)
+
+## 优雅使用sublime
+- `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`  
