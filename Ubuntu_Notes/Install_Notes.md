@@ -60,3 +60,7 @@ $ sudo apt-get install network-manager-openconnect-gnome
 ```
 
 ## 在Annaconda Python 2.7 基础上继续添加 Python 3.6的[方法](https://conda.io/docs/user-guide/tasks/manage-python.html)
+
+## TensorFlow 
+- 安装[pip](https://pip.pypa.io/en/latest/installing/#id7)
+- 安装[TensorFlow](https://zhuanlan.zhihu.com/p/24055668)： `pip install --upgrade --ignore-installed tensorflow` (CPU版)
