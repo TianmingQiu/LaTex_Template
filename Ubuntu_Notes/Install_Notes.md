@@ -4,6 +4,7 @@
 2. 分四个分区的时候。第一个主分区“/”要最后做，否则会显示不可用。第四个分区给第一个分区预留下空间大小即可。 （**分区的时候给\boot多分一点，至少500M**,看下实验室电脑，root，boot和home各分多少）
 3. 装完之后改一下root密码，并修改启动项顺序
 4. 所需的ultraISO和镜像均在移动硬盘里
+5. [Other Tips](http://blog.csdn.net/fuchaosz/article/details/51882935)  
 
 ## Ubuntu重装笔记(双系统卸载ubuntu)
 1. 更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win  
