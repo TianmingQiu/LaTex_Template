@@ -50,6 +50,9 @@ $ sudo modprobe -a 8821ce
     
 - The above link works iff your linux version is right, unless you cannot **make** successfully.
 
+## 优盘空间变小
+- [百度经验](https://jingyan.baidu.com/article/b24f6c82dddece86bee5da67.html)
+
 
 ## Upgrade Ubuntu System Version
 - From 14.04 LTS to 16.04 LTS: [CSDN Guide](http://blog.csdn.net/chszs/article/details/51236572)
