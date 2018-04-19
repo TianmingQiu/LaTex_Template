@@ -27,11 +27,11 @@ Ubuntu搜狗输入法安装方法：
 - The reason is the version of **linux kernel** is too low(BE CAREFUL! The linux kernel version is different from ubuntu system version), the original version is 4.4.0. So the most urgent thing is to upgrade the kernel version at least up to **4.14.x.x**
 - How to upgrade linux kernel version? See this [guide](http://blog.csdn.net/csdn_duomaomao/article/details/77668946)
 ```
-$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.9/linux-headers-4.16.0-997_4.16.0-997.201804132201_all.deb
+$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997_4.16.0-997.201804132201_all.deb
 
-$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.9/linux-headers-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
+$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
 
-$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.12.9/ linux-image-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
+$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-image-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
 ```
 
 
