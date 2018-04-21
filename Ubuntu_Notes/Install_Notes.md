@@ -32,6 +32,8 @@ $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/l
 $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
 
 $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-image-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
+
+
 ```
 
 
@@ -71,3 +73,5 @@ $ sudo apt-get install network-manager-openconnect-gnome
 
 ## 优雅使用sublime
 - `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`  
+
+## Install google pinyin input method [link](https://blog.csdn.net/zhuyucheng123/article/details/53184490)  
