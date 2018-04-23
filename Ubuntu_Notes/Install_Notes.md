@@ -64,4 +64,5 @@ $ sudo modprobe -a 8821ce
 ```
 $ sudo apt-get install network-manager-openconnect-gnome
 ```
+## [GRUB time](https://www.jianshu.com/p/f3c3beb7f205)
 
