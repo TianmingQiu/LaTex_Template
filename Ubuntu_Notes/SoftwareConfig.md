@@ -32,5 +32,6 @@ $matlab_Path
 然后直接在命令行中输入subl
 - 中文不能显示， 尤其是txt乱码： Install Package： ConvertToUTF8， Codecs33
 - 解决中文输入的问题： [简书](https://www.jianshu.com/p/bf05fb3a4709)
+- [sublime+markadown]（https://www.jianshu.com/p/335b7d1be39e）
 
 ## Install google pinyin input method [link](https://blog.csdn.net/zhuyucheng123/article/details/53184490)  
