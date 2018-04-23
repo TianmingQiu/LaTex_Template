@@ -19,3 +19,16 @@ $matlab_Path
 `$ sudo chmod 777 matlab`
 
 4.使用命令行到任意路径下输入:matlab.
+
+
+## 在Annaconda Python 2.7 基础上继续添加 Python 3.6的[方法](https://conda.io/docs/user-guide/tasks/manage-python.html)
+
+## TensorFlow 
+- 安装[pip](https://pip.pypa.io/en/latest/installing/#id7)
+- 安装[TensorFlow](https://zhuanlan.zhihu.com/p/24055668)： `pip install --upgrade --ignore-installed tensorflow` (CPU版)
+
+## 优雅使用sublime
+- `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`  
+然后直接在命令行中输入subl
+
+## Install google pinyin input method [link](https://blog.csdn.net/zhuyucheng123/article/details/53184490)  
