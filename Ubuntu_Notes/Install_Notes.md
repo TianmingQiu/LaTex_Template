@@ -1,12 +1,12 @@
 # Linux Notes
 ## For 14.04 + Win 7 installation:
 1. 百度经验：win7+Ubuntu3.04双系统安装方法
-2. 分四个分区的时候。第一个主分区“/”要最后做，否则会显示不可用。第四个分区给第一个分区预留下空间大小即可。 （**分区的时候给\boot多分一点，至少500M**,看下实验室电脑，root，boot和home各分多少）
+2. 分四个分区的时候。第一个主分区“/”要最后做，否则会显示不可用。第四个分区给第一个分区预留下空间大小即可。 （**分区的时候给\boot多分一点，至少800M**,/root要足够大，70G+，/home都可以不要挂出来，/boot在双系统的情况下要单独挂载，ubuntu默认是放在/root下的）
 3. 装完之后改一下root密码，并修改启动项顺序
 4. 所需的ultraISO和镜像均在移动硬盘里
 5. [Other Tips](http://blog.csdn.net/fuchaosz/article/details/51882935)  
 
-## Ubuntu重装笔记(双系统卸载ubuntu)
+## Ubuntu重装笔记(双系统卸载ubuntu)[]
 1. 更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win  
 具体更改方法如下：通过管理员身份，运行cmd。 访问mbrfix(可以直接把可执行文件放在user根目录下)  
 执行：MbrFix /drive 0 fixmbr /win7 /yes  
@@ -26,14 +26,14 @@ Ubuntu搜狗输入法安装方法：
 ## Wireless device cannot be detected on ThinkPad E470
 - The reason is the version of **linux kernel** is too low(BE CAREFUL! The linux kernel version is different from ubuntu system version), the original version is 4.4.0. So the most urgent thing is to upgrade the kernel version at least up to **4.14.x.x**
 - How to upgrade linux kernel version? See this [guide](http://blog.csdn.net/csdn_duomaomao/article/details/77668946)
+- **ATTENTION!** amd64 means for 64bit, actually, go to this link and download the latest kernel version: [link](http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/)
+
 ```
 $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997_4.16.0-997.201804132201_all.deb
 
-$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
+$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-headers-4.16.0-997-generic_4.16.0-997.201804132201_amd64.deb
 
-$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-image-4.16.0-997-generic_4.16.0-997.201804132201_i386.deb
-
-
+$ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-image-4.16.0-997-generic_4.16.0-997.201804132201_amd64.deb
 ```
 
 
@@ -44,7 +44,7 @@ $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/l
 1. Download driver directory from this repo:https://github.com/endlessm/linux/tr...less/rtl8821ce. 
 2. You can do it by this link: https://minhaskamal.github.io/DownGi...less/rtl8821ce
 3. Unpack zip archive.
-4. Change the Makefile. Line "export TopDIR ?= ..." to export "TopDIR ?= PATH TO EXTRACTED DIRECTORY".
+4. Change the Makefile. Line "export TopDIR ?= ..." to export "TopDIR ?= PATH TO EXTRACTED DIRECTORY". (without $, maybe try this DIR: /lib/modules/4.16.0-997-generic/kernel/net/wireless/)
 $ make
 $ sudo make install
 $ sudo modprobe -a 8821ce
@@ -65,4 +65,6 @@ $ sudo modprobe -a 8821ce
 $ sudo apt-get install network-manager-openconnect-gnome
 ```
 ## [GRUB time](https://www.jianshu.com/p/f3c3beb7f205)
+
+## alt-tab 2 windows switchers
 
