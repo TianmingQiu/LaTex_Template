@@ -6,7 +6,7 @@
 4. 所需的ultraISO和镜像均在移动硬盘里
 5. [Other Tips](http://blog.csdn.net/fuchaosz/article/details/51882935)  
 
-## Ubuntu重装笔记(双系统卸载ubuntu)[]
+## Ubuntu重装笔记(双系统卸载ubuntu)
 1. 更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win  
 具体更改方法如下：通过管理员身份，运行cmd。 访问mbrfix(可以直接把可执行文件放在user根目录下)  
 执行：MbrFix /drive 0 fixmbr /win7 /yes  
@@ -67,4 +67,26 @@ $ sudo apt-get install network-manager-openconnect-gnome
 ## [GRUB time](https://www.jianshu.com/p/f3c3beb7f205)
 
 ## alt-tab 2 windows switchers
+ 
+## [Ubuntu_NVIDIA]https://blog.csdn.net/u012759136/article/details/53355781
+confirmed that in GCP, Michael's instruction fixed the issue.
+Here is the commands I used:
+```
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-390
 
+sudo reboot
+```
+
+…after reboot:
+```
+lsmod | grep nvidia 
+```
+
+
+https://devtalk.nvidia.com/default/topic/1000340/cuda-setup-and-installation/-quot-nvidia-smi-has-failed-because-it-couldn-t-communicate-with-the-nvidia-driver-quot-ubuntu-16-04/3
+
+
+https://blog.csdn.net/u012759136/article/details/53355781
