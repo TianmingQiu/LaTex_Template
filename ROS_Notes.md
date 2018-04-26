@@ -10,4 +10,8 @@
 - 可不可以放一些python的文件在package，catkin_make之后能否识别rospack，（因为我原来有写过python的文档，直接python run出来就行，不用经过catkin_make，这区别是在于c需要生成可执行文件吗？）
 
 ## rqt_graph
--显示不全  
+- 显示不全, do not select remove
+
+## Cannot compile the msg.h
+- old version: message_run, new version: message_runtime
+- maybe also change the CMakelist.txt, to CMakelist.txt.old
