@@ -7,6 +7,9 @@
 5. [Other Tips](http://blog.csdn.net/fuchaosz/article/details/51882935)  
 
 ## Ubuntu重装笔记(双系统卸载ubuntu)
+### Method1
+拿优盘做成启动盘之后直接擦分区，“-”去挂载，重新分配
+### Method2
 1. 更改win7的引导，因为安装的时候使用Ubuntu引导windows，如果直接擦除Ubuntu，会无法进入win  
 具体更改方法如下：通过管理员身份，运行cmd。 访问mbrfix(可以直接把可执行文件放在user根目录下)  
 执行：MbrFix /drive 0 fixmbr /win7 /yes  
@@ -35,7 +38,9 @@ $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/l
 
 $ wget http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-next/2018-04-14/linux-image-4.16.0-997-generic_4.16.0-997.201804132201_amd64.deb
 ```
-
+1. 去官网ubuntu linux kernel直接点击下载，amd64位
+2. dpkg安装
+3. 然后下载网卡驱动
 
 ## Install driver for RLT8812CE
 - [Driver Install Guide](https://ubuntuforums.org/showthread.php?t=2371149&page=3)
