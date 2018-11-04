@@ -95,3 +95,5 @@ https://devtalk.nvidia.com/default/topic/1000340/cuda-setup-and-installation/-qu
 
 
 https://blog.csdn.net/u012759136/article/details/53355781
+
+## bashrc 修改，取消注释`force_color_prompt=yes`
