@@ -24,7 +24,7 @@ See the `.pdf` file *google_cloud_tutorial_i2dl.pdf*.
 - Download the install file from the official [GCloud tutorial](https://cloud.google.com/sdk/docs/?hl=zh-cn#Getting_Started)
 - Also useful and detailed [document](https://ephrain.net/gcp-%E4%BD%BF%E7%94%A8-gcloud-%E9%80%A3%E7%B7%9A%E5%88%B0-google-cloud-platform-%E4%B8%8A%E7%9A%84-vm/)
 ### Install nvidia driver and cuda
-- 这块其实有点含糊，不知到在哪个教程或是官方文档上看到一句`sudo apt-get install nvidia-cuda-toolkit`，完事之后，`nvidia-smi`就出来了，此时似乎不用再装cuda9.0，不然会出现驱动和lib不匹配
+- 这块其实有点含糊，tum info的pdf教程给的是`sudo apt-get install nvidia-cuda-toolkit`，完事之后，`nvidia-smi`就出来了，此时似乎不用再装cuda9.0，不然会出现驱动和lib不匹配，应该明确，tum的教程其实是为了后续给pytorch用，而非tensorflow
 - [Taiwainese Tutorial](https://medium.com/@kstseng/%E5%9C%A8-google-cloud-platform-%E4%B8%8A%E4%BD%BF%E7%94%A8-gpu-%E5%92%8C%E5%AE%89%E8%A3%9D%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E7%9B%B8%E9%97%9C%E5%A5%97%E4%BB%B6-1b118e291015) Or just follow this tutorial, install cuda directly and cudnn
 ### tensorflow install
 - Still follow the tensorflow official website install toturial. Since right now the VM is just an Ubuntu computer, all the same except it is on the server.
