@@ -54,7 +54,7 @@ $ make
 $ sudo make install
 $ sudo modprobe -a 8821ce
 ```
-    
+
 - The above link works iff your linux version is right, unless you cannot **make** successfully.
 
 ## 优盘空间变小
@@ -72,7 +72,7 @@ $ sudo apt-get install network-manager-openconnect-gnome
 ## [GRUB time](https://www.jianshu.com/p/f3c3beb7f205)
 
 ## alt-tab 2 windows switchers
- 
+
 ## [Ubuntu_NVIDIA](https://blog.csdn.net/u012759136/article/details/53355781)
 confirmed that in GCP, Michael's instruction fixed the issue.
 Here is the commands I used:
