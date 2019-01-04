@@ -9,3 +9,4 @@
 ## [Bayesian Regression](https://blog.csdn.net/daunxx/article/details/51725086#%E5%8E%9F%E6%96%87%E5%9C%B0%E5%9D%80)
 - 搞清极大似然和极大后验
 - 这里需要说明，虽然从公式上来看 MAP=ML∗p(θ)，但是这两种算法有本质的区别，ML将θ视为一个确定未知的值，而MAP则将θ视为一个随机变量。  
+
